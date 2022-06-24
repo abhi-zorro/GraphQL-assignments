@@ -1,0 +1,289 @@
+#query stop by radius
+
+  {
+    stopsByRadius(lat:60.199,lon:24.938,radius:500) {
+      edges {
+        node {
+          stop { 
+            gtfsId 
+            name
+          }
+          distance
+        }
+      }
+    }
+  }
+
+
+  ---------------------------------
+
+
+  {
+  "data": {
+    "stopsByRadius": {
+      "edges": [
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173103",
+              "name": "Junailijankuja"
+            },
+            "distance": 117
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173210",
+              "name": "Ratamestarinkatu"
+            },
+            "distance": 182
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173434",
+              "name": "Asemapäällikönkatu"
+            },
+            "distance": 215
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173115",
+              "name": "Pasilan asema"
+            },
+            "distance": 234
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173112",
+              "name": "Asemapäällikönkatu"
+            },
+            "distance": 265
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173402",
+              "name": "Asemapäällikönkatu"
+            },
+            "distance": 265
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173105",
+              "name": "Pasilan asema"
+            },
+            "distance": 271
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173218",
+              "name": "Messukeskus"
+            },
+            "distance": 315
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173115",
+              "name": "Pasilan asema"
+            },
+            "distance": 335
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1220434",
+              "name": "Pasilan asema"
+            },
+            "distance": 337
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173148",
+              "name": "Pasilan asema"
+            },
+            "distance": 358
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174128",
+              "name": "Pasilan asema"
+            },
+            "distance": 360
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173106",
+              "name": "Pasilan asema"
+            },
+            "distance": 366
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173433",
+              "name": "Messukeskus"
+            },
+            "distance": 381
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173148",
+              "name": "Pasilan asema"
+            },
+            "distance": 387
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173105",
+              "name": "Pasilan asema"
+            },
+            "distance": 390
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173431",
+              "name": "Kellosilta"
+            },
+            "distance": 395
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174147",
+              "name": "Pasilan asema"
+            },
+            "distance": 395
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174551",
+              "name": "Pasila"
+            },
+            "distance": 401
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174501",
+              "name": "Pasila"
+            },
+            "distance": 401
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174503",
+              "name": "Pasila"
+            },
+            "distance": 412
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174553",
+              "name": "Pasila"
+            },
+            "distance": 434
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173127",
+              "name": "Teollisuuskatu"
+            },
+            "distance": 436
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174504",
+              "name": "Pasila"
+            },
+            "distance": 456
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174554",
+              "name": "Pasila"
+            },
+            "distance": 456
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1174502",
+              "name": "Pasila"
+            },
+            "distance": 484
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173113",
+              "name": "Jämsänkatu"
+            },
+            "distance": 491
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1173403",
+              "name": "Jämsänkatu"
+            },
+            "distance": 491
+          }
+        },
+        {
+          "node": {
+            "stop": {
+              "gtfsId": "HSL:1220131",
+              "name": "Jämsänkatu"
+            },
+            "distance": 491
+          }
+        }
+      ]
+    }
+  }
+}

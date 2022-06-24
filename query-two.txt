@@ -1,0 +1,14 @@
+{
+  stop(id: "HSL:1140447") {
+    name
+    wheelchairBoarding
+  }
+}
+
+--------------
+
+{
+  "data": {
+    "stop": null
+  }
+}

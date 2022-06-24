@@ -1,0 +1,91 @@
+#query by stop name
+
+{
+  stops(name: "hertton") {
+    gtfsId
+    name
+    code
+    lat
+    lon
+  }
+}
+
+
+---------------------------------
+
+{
+  "data": {
+    "stops": [
+      {
+        "gtfsId": "HSL:1434114",
+        "name": "Herttoniemenranta",
+        "code": "H4714",
+        "lat": 60.190465,
+        "lon": 25.025627
+      },
+      {
+        "gtfsId": "HSL:1434190",
+        "name": "Herttoniemenranta",
+        "code": "H4278",
+        "lat": 60.189922,
+        "lon": 25.025702
+      },
+      {
+        "gtfsId": "HSL:1431142",
+        "name": "Herttoniemen kirkko",
+        "code": "H4054",
+        "lat": 60.19926,
+        "lon": 25.03136
+      },
+      {
+        "gtfsId": "HSL:1431141",
+        "name": "Herttoniemen kirkko",
+        "code": "H4053",
+        "lat": 60.19795,
+        "lon": 25.03163
+      },
+      {
+        "gtfsId": "HSL:1431189",
+        "name": "Herttoniemi (M)",
+        "code": "H4042",
+        "lat": 60.19516,
+        "lon": 25.03188
+      },
+      {
+        "gtfsId": "HSL:1431188",
+        "name": "Herttoniemi (M)",
+        "code": "H4043",
+        "lat": 60.19499,
+        "lon": 25.03171
+      },
+      {
+        "gtfsId": "HSL:1431183",
+        "name": "Herttoniemi (M)",
+        "code": "H4045",
+        "lat": 60.19472,
+        "lon": 25.03124
+      },
+      {
+        "gtfsId": "HSL:1431187",
+        "name": "Herttoniemi (M)",
+        "code": "H4006",
+        "lat": 60.19387,
+        "lon": 25.029568
+      },
+      {
+        "gtfsId": "HSL:1431185",
+        "name": "Herttoniemi (M)",
+        "code": "H4044",
+        "lat": 60.19483,
+        "lon": 25.03145
+      },
+      {
+        "gtfsId": "HSL:1431103",
+        "name": "Herttoniemi (M)",
+        "code": "H4992",
+        "lat": 60.194302,
+        "lon": 25.030092
+      }
+    ]
+  }
+}

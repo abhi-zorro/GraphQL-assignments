@@ -1,0 +1,68 @@
+#query by stop id
+
+{
+  stop(id: "HSL:1382139") {
+    gtfsId
+    name
+    lat
+    lon
+    patterns {
+      code
+      directionId
+      headsign
+      route {
+        gtfsId
+        shortName
+        longName
+        mode
+      }
+    }
+  }
+}
+
+--------------------------------------
+{
+  "data": {
+    "stop": {
+      "gtfsId": "HSL:1382139",
+      "name": "Lallintie",
+      "lat": 60.25005,
+      "lon": 25.02018,
+      "patterns": [
+        {
+          "code": "HSL:1704:0:01",
+          "directionId": 0,
+          "headsign": "Sepänmäki",
+          "route": {
+            "gtfsId": "HSL:1704",
+            "shortName": "704",
+            "longName": "Malmi-Sepänmäki",
+            "mode": "BUS"
+          }
+        },
+        {
+          "code": "HSL:1702:1:01",
+          "directionId": 1,
+          "headsign": "Jakomäki",
+          "route": {
+            "gtfsId": "HSL:1702",
+            "shortName": "702",
+            "longName": "Jakomäki-Puistola-Malmi-Tapaninvainio-Savela",
+            "mode": "BUS"
+          }
+        },
+        {
+          "code": "HSL:1702:1:02",
+          "directionId": 1,
+          "headsign": "Jakomäki",
+          "route": {
+            "gtfsId": "HSL:1702",
+            "shortName": "702",
+            "longName": "Jakomäki-Puistola-Malmi-Tapaninvainio-Savela",
+            "mode": "BUS"
+          }
+        }
+      ]
+    }
+  }
+}

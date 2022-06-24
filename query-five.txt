@@ -1,0 +1,119 @@
+#query by station name
+
+{
+	stations(name: "pasila") {
+    gtfsId
+    name
+    lat
+    lon
+    stops {
+      gtfsId
+      name
+      code
+      platformCode
+    }
+  }
+}
+
+
+----------------------------------
+{
+  "data": {
+    "stations": [
+      {
+        "gtfsId": "HSL:1000004",
+        "name": "Pasila",
+        "lat": 60.198118,
+        "lon": 24.934074,
+        "stops": [
+          {
+            "gtfsId": "HSL:1174147",
+            "name": "Pasilan asema",
+            "code": "H2101",
+            "platformCode": "36"
+          },
+          {
+            "gtfsId": "HSL:1174128",
+            "name": "Pasilan asema",
+            "code": "H2100",
+            "platformCode": "31"
+          },
+          {
+            "gtfsId": "HSL:1173105",
+            "name": "Pasilan asema",
+            "code": "H2367",
+            "platformCode": "45"
+          },
+          {
+            "gtfsId": "HSL:1173106",
+            "name": "Pasilan asema",
+            "code": "H0620",
+            "platformCode": "42"
+          },
+          {
+            "gtfsId": "HSL:1173148",
+            "name": "Pasilan asema",
+            "code": "H2102",
+            "platformCode": "24"
+          }
+        ]
+      },
+      {
+        "gtfsId": "HSL:1000202",
+        "name": "Pasilan asema",
+        "lat": 60.199228,
+        "lon": 24.933114,
+        "stops": [
+          {
+            "gtfsId": "HSL:1174504",
+            "name": "Pasila",
+            "code": "H0090",
+            "platformCode": "8"
+          },
+          {
+            "gtfsId": "HSL:1174502",
+            "name": "Pasila",
+            "code": "H0071",
+            "platformCode": "11"
+          },
+          {
+            "gtfsId": "HSL:1174501",
+            "name": "Pasila",
+            "code": "H0071",
+            "platformCode": "2"
+          },
+          {
+            "gtfsId": "HSL:1174503",
+            "name": "Pasila",
+            "code": "H0087",
+            "platformCode": "3"
+          },
+          {
+            "gtfsId": "HSL:1174551",
+            "name": "Pasila",
+            "code": "H0071",
+            "platformCode": "1"
+          },
+          {
+            "gtfsId": "HSL:1174552",
+            "name": "Pasila",
+            "code": "H0071",
+            "platformCode": "10"
+          },
+          {
+            "gtfsId": "HSL:1174553",
+            "name": "Pasila",
+            "code": "H0089",
+            "platformCode": "5"
+          },
+          {
+            "gtfsId": "HSL:1174554",
+            "name": "Pasila",
+            "code": "H0091",
+            "platformCode": "9"
+          }
+        ]
+      }
+    ]
+  }
+}
